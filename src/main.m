@@ -10,7 +10,7 @@ bricounterweiner=0;
 imagerunner=21;
 for k = 1:imagerunner
   jpgFilename = sprintf('%d.jpeg', k);
-  fullFileName = fullfile('/home/tangobeer/Desktop/ImageEnchancement/DataSet/car', jpgFilename);
+  fullFileName = fullfile('D:\Downloads\VIT Downloads\CSE4019-Image Processing\ImageEnchancement-master\DataSet\car', jpgFilename);
   if exist(fullFileName, 'file')
     imageData = imread(fullFileName);
     imageDatagray=rgb2gray(imageData);
@@ -76,7 +76,7 @@ fprintf('Counter for weiner filter(brisque): %d \n',bricounterweiner);
 
 for k = 1:imagerunner
   jpgFilename = sprintf('%d.jpeg', k);
-  fullFileName = fullfile('/home/tangobeer/Desktop/ImageEnchancement/DataSet/car', jpgFilename);
+  fullFileName = fullfile('D:\Downloads\VIT Downloads\CSE4019-Image Processing\ImageEnchancement-master\DataSet\car', jpgFilename);
   if exist(fullFileName, 'file')
     imageData = imread(fullFileName );
     imageDatagray=rgb2gray(imageData);
@@ -138,7 +138,7 @@ end
 
 for k = 1:imagerunner
   jpgFilename = sprintf('%d.jpeg', k);
-  fullFileName = fullfile('/home/tangobeer/Desktop/ImageEnchancement/DataSet/car', jpgFilename);
+  fullFileName = fullfile('D:\Downloads\VIT Downloads\CSE4019-Image Processing\ImageEnchancement-master\DataSet\car', jpgFilename);
   if exist(fullFileName, 'file')
     imageData = imread(fullFileName );
     imageDatagray=rgb2gray(imageData);
@@ -199,7 +199,7 @@ end
 
 for k = 1:imagerunner
   jpgFilename = sprintf('%d.jpeg', k);
-  fullFileName = fullfile('/home/tangobeer/Desktop/ImageEnchancement/DataSet/car', jpgFilename);
+  fullFileName = fullfile('D:\Downloads\VIT Downloads\CSE4019-Image Processing\ImageEnchancement-master\DataSet\car', jpgFilename);
   if exist(fullFileName, 'file')
     imageData = imread(fullFileName );
     imageDatagray=rgb2gray(imageData);
